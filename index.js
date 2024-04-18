@@ -22,7 +22,7 @@ function calculate(){
 
 function percent(){
         let value = parseFloat(display.value);
-            display.value = value / 100; //This code shows the number as a percentage
+            display.value = value / 100; //This code shows the percentage as a factor of change
 }
 
 function plusMinus() {
