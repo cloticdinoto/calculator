@@ -26,7 +26,14 @@ function percent(){
 }
 
 function plusMinus() {
+    if (display.value == ""){
+        appendToDisplay("-");
+    }
+    else if(display.value == "-"){
+        clearDisplay();
+    }
+    else{
     let value = parseFloat(display.value);
     value *= -1;
-    display.value = value;
+    display.value = value;}
 }
